@@ -1,6 +1,6 @@
 package Net::Gnats;
 BEGIN {
-  $Net::Gnats::VERSION = '0.19';
+  $Net::Gnats::VERSION = '0.22';
 }
 use 5.010_000;
 use utf8;
@@ -38,12 +38,13 @@ Net::Gnats - Perl interface to GNU Gnats daemon
 
 =head1 VERSION
 
-0.19
+0.22
 
 =head1 DESCRIPTION
 
-Net::Gnats provides a perl interface to the gnatsd command set.  Although
-most of the gnatsd command are present and can be explicitly called through
+Net::Gnats provides a perl interface to the
+L<gnatsd|http://www.gnu.org/software/gnats/> command set.  Although most of
+the gnatsd command are present and can be explicitly called through
 Net::Gnats, common gnats tasks can be accompished through some methods
 which simplify the process (especially querying the database, editing bugs,
 etc).
